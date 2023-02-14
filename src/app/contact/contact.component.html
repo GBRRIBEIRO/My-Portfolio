@@ -1,0 +1,55 @@
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<!-- About: Main-->
+<div class="main w-screen h-screen px-32 py-10">
+  <div class="flex">
+    <h1
+      class="font-mono font-bold text-4xl text-cyan-700 w-full flex justify-center"
+    >
+      Contacts
+    </h1>
+  </div>
+  <div class="w-full h-full flex flex-col justify-around">
+    <a
+      class="w-full h-1/12"
+      href="https://www.linkedin.com/in/gabriel-nunes-ribeiro-897521239/"
+    >
+      <button class="flex flex-row w-full items-between justify-center">
+        <img
+          class="w-1/12 h-1/12"
+          src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+          alt=""
+        />
+      </button>
+    </a>
+
+    <a class="w-full h-1/12" href="https://github.com/GBRRIBEIRO">
+      <button class="flex flex-row w-full items-center justify-center">
+        <img
+          class="w-1/12 h-1/12"
+          src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+          alt=""
+        />
+      </button>
+    </a>
+
+    <a class="w-full h-1/12" (click)="openContact(1)">
+      <button class="flex flex-row w-full items-center justify-center">
+        <img
+          class="w-1/12 h-1/12"
+          src="https://cdn-icons-png.flaticon.com/512/725/725624.png"
+          alt=""
+        />
+      </button>
+    </a>
+
+    <a class="w-full h-1/12" (click)="openContact(2)">
+      <button class="flex flex-row w-full items-center justify-center">
+        <img
+          class="w-1/12 h-1/12"
+          src="https://cdn-icons-png.flaticon.com/512/1782/1782765.png"
+          alt=""
+        />
+      </button>
+    </a>
+  </div>
+</div>

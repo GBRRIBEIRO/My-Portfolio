@@ -1,0 +1,46 @@
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap");
+</style>
+<body>
+  <div class="home">
+    <!-- Header/Nav -->
+    <nav class="bg-cyan-700 px-32 py-6">
+      <div class="p-2 custom_font flex justify-items-center items-center">
+        <h1 class="text-6xl hover:text-cyan-100">G</h1>
+        <div class="ml-auto">
+          <button (click)="scrollTo(about)" class="pl-2 hover:text-cyan-100">
+            About
+          </button>
+          <button (click)="scrollTo(contact)" class="pl-2 hover:text-cyan-100">Contact</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="banner p-32">
+      <div class="flex flex-row justify-between items-center">
+        <div>
+          <h2 class="text-green-700">Full-stack developer</h2>
+          <h3 class="font-mono font-bold text-4xl">GABRIEL NUNES RIBEIRO</h3>
+        </div>
+
+        <div class="h-5/12 w-5/12 float-right">
+          <figure>
+            <img
+              class="w-full h-full image"
+              src="https://miro.medium.com/max/311/0*iKwwEO0btKL3brZn"
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section #about class="about">
+    <app-about></app-about>
+  </section>
+
+  <section #contact class="contact">
+    <app-contact></app-contact>
+  </section>
+</body>
