@@ -8,7 +8,7 @@ import { ContactModalComponent } from './contact-modal/contact-modal.component';
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.sass']
+  styleUrls: ['./contact.component.css', '../app.component.css']
 })
 export class ContactComponent {
   constructor(public dialog: MatDialog){

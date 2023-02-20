@@ -1,0 +1,9 @@
+button{
+  transform: scale(1) !important;
+  -webkit-transition: transform 0.3s ease-in-out !important;
+}
+ button:hover{
+  transform: scale(1.25) !important;
+  -webkit-transition: transform 0.3s ease-in-out !important;
+ }
+

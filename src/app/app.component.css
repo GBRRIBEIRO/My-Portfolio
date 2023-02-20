@@ -1,0 +1,26 @@
+
+.slide-right {
+  transition: all 1s;
+  opacity: 0;
+  transform: translateX(100%);
+  filter: blur(5px);
+}
+
+.slide-right-done {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.slide-left {
+  transition: all 1s;
+  opacity: 0;
+  transform: translateX(-100%);
+  filter: blur(5px);
+}
+
+.slide-left-done {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
